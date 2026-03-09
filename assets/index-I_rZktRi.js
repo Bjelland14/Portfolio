@@ -1,0 +1,9 @@
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))n(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const s of t.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&n(s)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function n(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}})();const c=[{title:"RainyDays",description:"An e-commerce website for a fictional clothing brand.",image:"assets/thumbnails/rainydays.png",github:"https://github.com/Bjelland14/HTML-og-CSS-CA",live:"https://bjelland14.github.io/HTML-og-CSS-CA/"},{title:"RainyDays JavaScript",description:"RainyDays project with focus on JavaScript functionality.",image:"assets/thumbnails/rainydaysjs.png",github:"https://github.com/Bjelland14/RainyDaysJS",live:"https://bjelland14.github.io/RainyDaysJS/"},{title:"Semester Project 1",description:"Responsive and accessible museum website built with HTML & CSS.",image:"assets/thumbnails/SP-1.png",github:"https://github.com/Bjelland14/Semester-Project-1",live:"https://bjelland14.github.io/Semester-Project-1/"}],o=document.querySelector("#projects-container");o&&c.forEach(i=>{const r=document.createElement("div");r.classList.add("project-card"),r.innerHTML=`
+      <img src="${i.image}" alt="${i.title}">
+      <h3>${i.title}</h3>
+      <p>${i.description}</p>
+      <div class="project-links">
+        <a href="${i.github}" target="_blank" rel="noopener">GitHub</a>
+        <a href="${i.live}" target="_blank" rel="noopener">Live Site</a>
+      </div>
+    `,o.appendChild(r)});
