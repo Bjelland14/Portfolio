@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: "/Portfolio-1/"
+  base: '/Portfolio-1/'
 })

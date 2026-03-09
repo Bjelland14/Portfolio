@@ -65,7 +65,7 @@ To run this project locally:
 
 1. Clone the repository
 
-git clone https://github.com/Bjelland14/Portfolio-1.git
+git clone https://github.com/Bjelland14/Portfolio
 
 2. Open the project folder.
 
