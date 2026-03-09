@@ -1,5 +1,5 @@
 import "./style.css";
-import { projects } from "./data/projects.ts";
+import { projects } from "./data/projects";
 
 const container = document.querySelector<HTMLDivElement>("#projects-container");
 
