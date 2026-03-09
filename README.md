@@ -4,9 +4,9 @@ This repository contains my portfolio website showcasing projects from my first 
 
 ## About
 
-I am a first-year Front-End Development student with an interest in building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+I am a first-year Front-End Development student interested in building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
 
-This portfolio presents selected projects demonstrating my development skills and progress.
+This portfolio highlights selected projects that demonstrate my development skills and progress throughout the program.
 
 ## Technologies
 
@@ -15,8 +15,6 @@ The portfolio and projects were built using:
 * HTML
 * CSS
 * JavaScript
-* TypeScript
-* Figma
 
 ## Projects
 
@@ -36,7 +34,7 @@ https://bjelland14.github.io/HTML-og-CSS-CA/
 ### RainyDays JavaScript
 
 **Description**
-An extended version of the RainyDays project with added JavaScript functionality.
+RainyDays project extended with JavaScript functionality such as dynamic product rendering and improved interactivity.
 
 **Repository**
 https://github.com/Bjelland14/RainyDaysJS
@@ -56,6 +54,14 @@ https://github.com/Bjelland14/Semester-Project-1
 
 **Live Site**
 https://bjelland14.github.io/Semester-Project-1/
+
+---
+
+## Live Portfolio
+
+You can view the portfolio website here:
+
+https://bjelland14.github.io/Portfolio/
 
 ---
 
