@@ -1,85 +1,60 @@
 # Portfolio
 
-This repository contains my portfolio website showcasing projects from my first year in the **Front-End Development program**.
+This repository contains my personal portfolio website showcasing selected projects from my Front-End Development studies at Noroff.
 
 ## About
 
-I am a first-year Front-End Development student interested in building clean, responsive, and user-friendly websites using HTML, CSS, and JavaScript.
+I am a Front-End Development student with experience in HTML, CSS, JavaScript, TypeScript, responsive design, REST APIs, Git and modern frontend development.
 
-This portfolio highlights selected projects that demonstrate my development skills and progress throughout the program.
+This portfolio showcases some of my recent projects and my development throughout my studies.
 
 ## Technologies
 
-The portfolio and projects were built using:
-
-* HTML
-* CSS
-* JavaScript
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- Git & GitHub
+- REST APIs
+- Vite
+- Bootstrap
+- Figma
 
 ## Projects
 
-### RainyDays (HTML & CSS)
+### Auction House
 
-**Description**
-Responsive e-commerce website built with HTML and CSS.
+Responsive auction platform built with TypeScript, Vite and Bootstrap. Includes authentication, listings, bidding and profile management.
 
-**Repository**
-https://github.com/Bjelland14/HTML-og-CSS-CA
+**Live Site:**  
+https://auction-house-sp2-bjelland.netlify.app/
 
-**Live Site**
-https://bjelland14.github.io/HTML-og-CSS-CA/
+### Project Exam 1
 
----
+E-commerce web application built with JavaScript. Includes product browsing, product details, cart functionality and checkout flow.
 
-### RainyDays JavaScript
+### Social Media Application
 
-**Description**
-RainyDays project extended with JavaScript functionality such as dynamic product rendering and improved interactivity.
+Social media application built with TypeScript and Vite. Includes authentication, post creation, profiles, search and follow functionality.
 
-**Repository**
-https://github.com/Bjelland14/RainyDaysJS
-
-**Live Site**
-https://bjelland14.github.io/RainyDaysJS/
-
----
-
-### Semester Project 1 (HTML & CSS)
-
-**Description**
-Responsive and accessible museum website built with HTML and CSS.
-
-**Repository**
-https://github.com/Bjelland14/Semester-Project-1
-
-**Live Site**
-https://bjelland14.github.io/Semester-Project-1/
-
----
+**Repository:**  
+https://github.com/Bjelland14/JavaScript-2-Course-Assignment
 
 ## Live Portfolio
 
-You can view the portfolio website here:
+https://lloydbjellandportfolio.netlify.app/
 
-https://bjelland14.github.io/Portfolio/
+## Running Locally
 
----
-
-## Running the Portfolio Locally
-
-To run this project locally:
-
-1. Clone the repository
+1. Clone the repository:
 
 git clone https://github.com/Bjelland14/Portfolio
 
 2. Open the project folder.
 
-3. Open **index.html** in your browser.
-
----
+3. Open `index.html` in your browser or use a local development server.
 
 ## Author
 
-Lloyd Bjelland
+Lloyd Bjelland  
 Front-End Development Student
