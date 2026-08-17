@@ -1,24 +1,24 @@
 const projects = [
 {
-title: "RainyDays",
-description: "E-commerce website built with HTML and CSS.",
-image: "assets/thumbnails/rainydays.png",
-github: "https://github.com/Bjelland14/HTML-og-CSS-CA",
-live: "https://bjelland14.github.io/HTML-og-CSS-CA/"
+title: "Auction House",
+description: "Responsive auction platform built with TypeScript, Vite and Bootstrap. Includes authentication, listings, bidding and profile management.",
+image: "assets/thumbnails/auction.jpg",
+github: "https://github.com/Bjelland14/Sp2",
+live: "https://auction-house-sp2-bjelland.netlify.app/"
 },
 {
-title: "RainyDays JavaScript",
-description: "RainyDays project with JavaScript functionality.",
-image: "assets/thumbnails/rainydaysjs.png",
-github: "https://github.com/Bjelland14/RainyDaysJS",
-live: "https://bjelland14.github.io/RainyDaysJS/"
+title: "Project Exam 1",
+description: "E-commerce web application built with JavaScript. Includes product browsing, product details, cart functionality and checkout flow.",
+image: "assets/thumbnails/PE1.png",
+github: "https://github.com/Bjelland14/PE1-Lloyd-Bjelland",
+live: "https://bjelland14.github.io/PE1-Lloyd-Bjelland/"
 },
 {
-title: "Semester Project 1",
-description: "Accessible museum website built with HTML and CSS.",
-image: "assets/thumbnails/SP-1.png",
-github: "https://github.com/Bjelland14/Semester-Project-1",
-live: "https://bjelland14.github.io/Semester-Project-1/"
+title: "Social Media Application",
+description: "Social media application built with TypeScript and Vite. Includes authentication, post creation, profiles, search and follow functionality.",
+image: "assets/thumbnails/js2.png",
+github: "https://github.com/Bjelland14/JavaScript-2-Course-Assignment",
+live: "https://bjelland14.github.io/JavaScript-2-Course-Assignment/#/login"
 }
 ];
 
