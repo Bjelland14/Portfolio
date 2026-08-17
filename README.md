@@ -1,12 +1,12 @@
 # Portfolio
 
-This repository contains my personal portfolio website showcasing selected projects from my Front-End Development studies at Noroff.
+This repository contains my personal portfolio website, showcasing selected projects from my Front-End Development studies at Noroff.
 
 ## About
 
-I am a Front-End Development student with experience in HTML, CSS, JavaScript, TypeScript, responsive design, REST APIs, Git and modern frontend development.
+I am a Front-End Development student with experience in HTML, CSS, JavaScript, TypeScript, responsive design, REST APIs, Git, and modern frontend development.
 
-This portfolio showcases some of my recent projects and my development throughout my studies.
+My portfolio highlights selected projects from my studies and demonstrates my progress as a frontend developer.
 
 ## Technologies
 
@@ -24,23 +24,38 @@ This portfolio showcases some of my recent projects and my development throughou
 
 ### Auction House
 
-Responsive auction platform built with TypeScript, Vite and Bootstrap. Includes authentication, listings, bidding and profile management.
+A responsive auction platform built with TypeScript, Vite, and Bootstrap. The application includes authentication, auction listings, bidding, and profile management using the Noroff Auction API.
+
+**Repository:**  
+https://github.com/Bjelland14/Sp2
 
 **Live Site:**  
 https://auction-house-sp2-bjelland.netlify.app/
 
+---
+
 ### Project Exam 1
 
-E-commerce web application built with JavaScript. Includes product browsing, product details, cart functionality and checkout flow.
+An e-commerce web application built with JavaScript. The application includes product browsing, product details, shopping cart functionality, and a checkout flow.
+
+**Repository:**  
+https://github.com/Bjelland14/PE1-Lloyd-Bjelland
+
+**Live Site:**  
+https://bjelland14.github.io/PE1-Lloyd-Bjelland/
+
+---
 
 ### Social Media Application
 
-Social media application built with TypeScript and Vite. Includes authentication, post creation, profiles, search and follow functionality.
+A social media application built with TypeScript and Vite using the Noroff Social API. The application includes authentication, post creation and management, user profiles, search, and social functionality.
 
 **Repository:**  
 https://github.com/Bjelland14/JavaScript-2-Course-Assignment
 
 ## Live Portfolio
+
+View my portfolio here:
 
 https://lloydbjellandportfolio.netlify.app/
 
@@ -48,13 +63,13 @@ https://lloydbjellandportfolio.netlify.app/
 
 1. Clone the repository:
 
-git clone https://github.com/Bjelland14/Portfolio
+   `git clone https://github.com/Bjelland14/Portfolio`
 
 2. Open the project folder.
 
-3. Open `index.html` in your browser or use a local development server.
+3. Open `index.html` in your browser or run the project using a local development server.
 
 ## Author
 
-Lloyd Bjelland  
+**Lloyd Bjelland**  
 Front-End Development Student

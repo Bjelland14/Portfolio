@@ -61,7 +61,7 @@ main {
 }
 
 section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 .hero-content {
@@ -130,10 +130,14 @@ section {
 }
 
 .html { background: #e34f26; }
-.css { background: #663399; }
-.js { background: #14532d; }
-.figma { background: #0284c7; }
-.TS { background: #0000ff; }
+.css { background: #1572b6; }
+.js { background: #b59f00; }
+.TS { background: #3178c6; }
+.git { background: #f05032; }
+.api { background: #0f766e; }
+.vite { background: #646cff; }
+.bootstrap { background: #7952b3; }
+.figma { background: #a259ff; }
 
 .contact-links {
   margin-top: 1rem;
