@@ -16,7 +16,8 @@ body {
 
 header,
 footer,
-.project-card {
+.project-card,
+.education-card {
   background: #1a1a1a;
 }
 
@@ -43,6 +44,7 @@ nav ul {
 }
 
 nav a,
+.hero-button,
 .project-links a,
 .contact-links a {
   color: #fff;
@@ -78,6 +80,25 @@ section {
   object-fit: cover;
 }
 
+.hero-button,
+.project-links a,
+.contact-links a {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  background: #4ea1ff;
+}
+
+.hero-button:hover,
+.project-links a:hover,
+.contact-links a:hover {
+  opacity: 0.8;
+}
+
+#about p {
+  max-width: 750px;
+}
+
 #projects-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -105,18 +126,6 @@ section {
   padding: 0 1rem 1rem;
 }
 
-.project-links a,
-.contact-links a {
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
-  background: #4ea1ff;
-}
-
-.project-links a:hover,
-.contact-links a:hover {
-  opacity: 0.8;
-}
-
 .tools-list {
   padding: 0;
   list-style: none;
@@ -129,15 +138,51 @@ section {
   color: #fff;
 }
 
-.html { background: #e34f26; }
-.css { background: #1572b6; }
-.js { background: #b59f00; }
-.TS { background: #3178c6; }
-.git { background: #f05032; }
-.api { background: #0f766e; }
-.vite { background: #646cff; }
-.bootstrap { background: #7952b3; }
-.figma { background: #a259ff; }
+.html {
+  background: #e34f26;
+}
+
+.css {
+  background: #1572b6;
+}
+
+.js {
+  background: #b59f00;
+}
+
+.TS {
+  background: #3178c6;
+}
+
+.git {
+  background: #f05032;
+}
+
+.api {
+  background: #0f766e;
+}
+
+.vite {
+  background: #646cff;
+}
+
+.bootstrap {
+  background: #7952b3;
+}
+
+.figma {
+  background: #a259ff;
+}
+
+.education-card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.education-card h3 {
+  margin-top: 0;
+}
 
 .contact-links {
   margin-top: 1rem;
@@ -152,5 +197,9 @@ footer {
   .hero-content {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero-button {
+    margin-top: 0.5rem;
   }
 }
