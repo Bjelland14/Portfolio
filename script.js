@@ -1,27 +1,33 @@
 const projects = [
   {
-    title: "Auction House",
+    title: "FlavorCraft",
+    role: "Team project · Scrum Master and SEO & Analytics Lead",
     description:
-      "Responsive auction platform built with TypeScript, Vite and Bootstrap. Includes authentication, listing management, bidding, search and profile functionality using the Noroff Auction API.",
+      "Recipe discovery app built in an agency-style team for a fictional client, with UX research and design in Figma, issues, branch conventions and semantic commits. I facilitated the sprints as scrum master and was responsible for SEO and analytics: meta tags, Open Graph, Schema.org recipe data (JSON-LD) and Microsoft Clarity, loaded only after cookie consent (GDPR). Lighthouse: 100 in accessibility and best practices.",
+    tech: "React · Vite · React Router",
+    image: "assets/thumbnails/flavorcraft.jpeg",
+    github: "https://github.com/Bjelland14/flavorcraft-agency-2",
+    live: "https://flavorcraft-team-beta.netlify.app/"
+  },
+  {
+    title: "Online Shop",
+    role: "JavaScript Frameworks",
+    description:
+      "Online shop with search, sorting, product pages, a shopping cart with quantities and totals, checkout and a validated contact form, using the Noroff Online Shop API. Includes loading and error handling, toast notifications and responsive design. AI usage is documented in a dedicated AI log.",
+    tech: "React · TypeScript · Vite · React Router",
+    image: "assets/thumbnails/jsframeworks.png",
+    github: "https://github.com/Bjelland14/js-frameworks-ca",
+    live: "https://js-frameworks-ca-lloyd.netlify.app/"
+  },
+  {
+    title: "Auction House",
+    role: "Semester Project 2",
+    description:
+      "Responsive auction platform with authentication, listing management, bidding, search and profile functionality using the Noroff Auction API.",
+    tech: "TypeScript · Vite · Bootstrap · REST API",
     image: "assets/thumbnails/auction.jpg",
     github: "https://github.com/Bjelland14/Sp2",
     live: "https://auction-house-sp2-bjelland.netlify.app/"
-  },
-  {
-    title: "Social Media Application",
-    description:
-      "Social media application built with TypeScript and Vite. Includes authentication, post creation, profiles, search and follow functionality using the Noroff Social API.",
-    image: "assets/thumbnails/js2.png",
-    github: "https://github.com/Bjelland14/JavaScript-2-Course-Assignment",
-    live: "https://bjelland14.github.io/JavaScript-2-Course-Assignment/#/login"
-  },
-  {
-    title: "Project Exam 1",
-    description:
-      "Responsive e-commerce application built with JavaScript, HTML and CSS. Includes product browsing, product details, cart functionality and checkout flow using data from a REST API.",
-    image: "assets/thumbnails/PE1.png",
-    github: "https://github.com/Bjelland14/PE1-Lloyd-Bjelland",
-    live: "https://bjelland14.github.io/PE1-Lloyd-Bjelland/"
   }
 ];
 
@@ -32,9 +38,11 @@ projects.forEach((project) => {
   card.classList.add("project-card");
 
   card.innerHTML = `
-    <img src="${project.image}" alt="${project.title}">
+    <img src="${project.image}" alt="Screenshot of ${project.title}">
     <h3>${project.title}</h3>
+    <p class="project-role">${project.role}</p>
     <p>${project.description}</p>
+    <p class="project-tech">${project.tech}</p>
 
     <div class="project-links">
       <a
