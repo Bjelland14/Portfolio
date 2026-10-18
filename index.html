@@ -9,169 +9,206 @@
     name="description"
     content="Portfolio of Lloyd Bjelland, frontend development student at Noroff building React and TypeScript applications with a focus on accessibility, SEO and user experience."
   >
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&display=swap"
+    rel="stylesheet"
+  >
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <header>
-  <nav>
+  <nav aria-label="Main">
+    <a class="brand" href="#hero" aria-label="Lloyd Bjelland, back to top">
+      <svg class="logo logo--small" viewBox="0 0 320 180" aria-hidden="true">
+        <path class="b-bracket" d="M58 40 C46 54 34 68 18 86 C32 102 44 116 60 134"/>
+        <g transform="translate(86 24)">
+          <path class="b-letter" d="M14 6 C13 46 15 92 14 132"/>
+          <path class="b-letter" d="M14 8 C54 2 70 22 58 46 C52 58 34 62 16 62"/>
+          <path class="b-letter" d="M16 62 C64 58 82 88 64 116 C54 132 34 134 14 130"/>
+        </g>
+        <path class="b-slash" d="M196 150 C204 112 212 76 222 34"/>
+        <path class="b-bracket" d="M248 40 C262 54 276 68 296 86 C280 102 266 116 250 134"/>
+      </svg>
+      <span>Lloyd Bjelland</span>
+    </a>
+
     <ul>
-      <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
       <li><a href="#tools">Tools</a></li>
-      <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li>
-        <a
-          href="https://github.com/Bjelland14"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </li>
     </ul>
   </nav>
 </header>
 
-<main>
+<main id="main">
 
   <section id="hero">
-    <div class="hero-content">
+    <div class="hero-text">
       <img
         src="assets/thumbnails/profile.jpg"
         alt="Lloyd Bjelland"
         class="profile-img"
       >
 
-      <div>
-        <h1>Lloyd Bjelland</h1>
+      <h1>Hi, I'm Lloyd.</h1>
 
-        <p>
-          Frontend development student building accessible, user-friendly
-          web applications with React and TypeScript, now growing into
-          fullstack with C# and .NET.
-        </p>
+      <p class="hero-lead">
+        I build web apps that are simple to use for everyone, with React and
+        TypeScript. Before code, I spent six years working with people, and
+        I still build for them first.
+      </p>
 
-        <a class="hero-button" href="#projects">
-          View Projects
-        </a>
+      <div class="hero-actions">
+        <a class="button button--primary" href="#projects">See my projects</a>
+        <a class="button" href="assets/Lloyd_Edward_Bjelland_CV.pdf" download>Download CV</a>
       </div>
     </div>
-  </section>
 
-  <section id="about">
-    <h2>About Me</h2>
+    <div class="hero-art">
+      <svg class="logo logo--hero" viewBox="0 0 320 180" role="img" aria-label="Lloyd's logo: a hand-drawn letter B written as a code tag">
+        <path class="b-bracket" d="M58 40 C46 54 34 68 18 86 C32 102 44 116 60 134"/>
+        <g transform="translate(86 24)">
+          <path class="b-letter" d="M14 6 C13 46 15 92 14 132"/>
+          <path class="b-letter" d="M14 8 C54 2 70 22 58 46 C52 58 34 62 16 62"/>
+          <path class="b-letter" d="M16 62 C64 58 82 88 64 116 C54 132 34 134 14 130"/>
+          <path class="b-shade" d="M26 22 L44 18 M26 34 L52 28 M28 80 L56 74 M28 96 L64 88 M28 112 L60 106"/>
+        </g>
+        <path class="b-slash" d="M196 150 C204 112 212 76 222 34"/>
+        <path class="b-bracket" d="M248 40 C262 54 276 68 296 86 C280 102 266 116 250 134"/>
+      </svg>
 
-    <p>
-      I'm a frontend development student at Noroff, completing my studies
-      in December 2026. I work mainly with React, TypeScript and REST APIs,
-      and I'm currently expanding my fullstack skills with C# and .NET through
-      a Pluralsight course.
-    </p>
-
-    <p>
-      In my latest team project I was both scrum master and responsible for
-      SEO and analytics, and I enjoy building solutions that are simple and
-      accessible for everyone.
-    </p>
-
-    <p>
-      What sets me apart is six years of work experience with people and a
-      trade certificate as a child and youth worker. I'm used to understanding
-      the needs of the people I work for, explaining things clearly and taking
-      responsibility, skills I bring into development and client work.
-    </p>
+      <p class="sticker">Open to work from January 2027</p>
+    </div>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
+    <p class="section-intro">
+      My three newest projects, with what I did on each one.
+    </p>
     <div id="projects-container"></div>
   </section>
 
-  <section id="tools">
-    <h2>Tools & Technologies</h2>
+  <section id="about">
+    <h2>About me</h2>
 
-    <ul class="tools-list">
-      <li class="react">React</li>
-      <li class="router">React Router</li>
-      <li class="TS">TypeScript</li>
-      <li class="js">JavaScript</li>
-      <li class="html">HTML</li>
-      <li class="css">CSS</li>
-      <li class="bootstrap">Bootstrap</li>
-      <li class="dotnet">C# / .NET (learning)</li>
-      <li class="node">Node.js</li>
-      <li class="express">Express</li>
-      <li class="api">REST APIs</li>
-      <li class="supabase">Supabase</li>
-      <li class="mysql">MySQL</li>
-      <li class="vitest">Vitest</li>
-      <li class="playwright">Playwright</li>
-      <li class="git">Git & GitHub</li>
-      <li class="vite">Vite</li>
-      <li class="figma">Figma</li>
-      <li class="seo">SEO & Schema.org</li>
-      <li class="clarity">Microsoft Clarity</li>
-      <li class="lighthouse">Lighthouse</li>
-      <li class="angular">Angular (basic)</li>
-      <li class="next">Next.js (basic)</li>
-    </ul>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a frontend development student at Noroff, finishing in
+          December 2026. I work mainly with React, TypeScript and REST APIs,
+          and I'm growing into fullstack with C# and .NET through a
+          Pluralsight course. I use AI tools like Claude to debug and solve
+          problems, and I document how I use them.
+        </p>
+
+        <p>
+          In my latest team project I was both scrum master and responsible
+          for SEO and analytics. I like it when a page loads fast, reads well
+          with a screen reader and still feels friendly.
+        </p>
+
+        <p>
+          Before tech, I worked six years with children, young people and
+          personal assistance, and I hold a trade certificate as a child and
+          youth worker. It taught me to listen first, explain things simply
+          and take responsibility, which turns out to be useful in client work too.
+        </p>
+      </div>
+
+      <ul class="facts">
+        <li><strong>Based in</strong> Stavanger</li>
+        <li><strong>Studying</strong> Frontend Development, Noroff</li>
+        <li><strong>Trade certificate</strong> Child and youth worker, 2023</li>
+        <li><strong>Off the screen</strong> Ice hockey, running, football</li>
+      </ul>
+    </div>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
+  <section id="tools">
+    <h2>Tools I use</h2>
 
-    <div class="education-card">
-      <h3>Frontend Development</h3>
-      <p>Noroff School of Technology and Digital Media</p>
-      <p>2024–2026 · Two-year higher vocational degree</p>
-      <p>Expected completion: December 2026</p>
-    </div>
+    <div class="tool-groups">
+      <div>
+        <h3>Frontend</h3>
+        <ul class="tools-list">
+          <li>React</li>
+          <li>React Router</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
 
-    <div class="education-card">
-      <h3>Trade Certificate – Child and Youth Worker</h3>
-      <p>Fagbrev som barne- og ungdomsarbeider</p>
-      <p>2023</p>
+      <div>
+        <h3>Backend and data</h3>
+        <ul class="tools-list">
+          <li>C# / .NET (learning)</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>REST APIs</li>
+          <li>Supabase</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Quality, SEO and AI</h3>
+        <ul class="tools-list">
+          <li>Vitest</li>
+          <li>Playwright</li>
+          <li>Lighthouse</li>
+          <li>SEO and Schema.org</li>
+          <li>Microsoft Clarity</li>
+          <li>Claude</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Workflow</h3>
+        <ul class="tools-list">
+          <li>Git and GitHub</li>
+          <li>Vite</li>
+          <li>Figma</li>
+          <li>Scrum</li>
+          <li>Angular (basic)</li>
+          <li>Next.js (basic)</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <section id="contact">
-    <h2>Contact</h2>
+    <h2>Say hi</h2>
 
-    <p>
-      I'm open to opportunities as a junior, frontend or fullstack developer
-      in the Stavanger area, available from January 2027.
+    <p class="contact-lead">
+      I'm looking for a role as a junior, frontend or fullstack developer in
+      the Stavanger area. Send me an email, and I'll get back to you.
     </p>
 
     <div class="contact-links">
-      <a href="mailto:lloydbjelland@gmail.com">
-        Email
-      </a>
-
-      <a
-        href="https://github.com/Bjelland14"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </a>
-
-      <a
-        href="https://www.linkedin.com/in/lloyd-bjelland-355659399/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
-      </a>
+      <a class="button button--primary" href="mailto:lloydbjelland@gmail.com">Email me</a>
+      <a class="button" href="https://www.linkedin.com/in/lloyd-bjelland-355659399/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a class="button" href="https://github.com/Bjelland14" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="button" href="assets/Lloyd_Edward_Bjelland_CV.pdf" download>Download CV</a>
     </div>
   </section>
 
 </main>
 
 <footer>
-  <p>&copy; 2026 Lloyd Bjelland</p>
+  <p>Designed and built by Lloyd Bjelland, 2026.</p>
 </footer>
 
 <script src="script.js"></script>
