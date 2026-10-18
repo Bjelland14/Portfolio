@@ -26,7 +26,7 @@ const projects = [
     role: "Semester Project 2",
     description:
       "Responsive auction platform with login, listings, bidding, search and user profiles, built on the Noroff Auction API.",
-    result: "",
+    result: "AI usage documented in its own AI log",
     tech: ["TypeScript", "Vite", "Bootstrap", "REST API"],
     image: "assets/thumbnails/auction.jpg",
     github: "https://github.com/Bjelland14/Sp2",
