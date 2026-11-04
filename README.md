@@ -6,7 +6,7 @@ My personal portfolio website, showcasing my newest projects from my Frontend De
 
 ## About
 
-I'm a Frontend Development student at Noroff, finishing in December 2026, and I'm working towards becoming a fullstack developer. I build with React, TypeScript and REST APIs, and I'm learning C# and .NET.
+I'm a frontend developer finishing a two-year Frontend Development degree at Noroff in December 2026, and I'm working towards becoming a fullstack developer. I build with React, TypeScript, Tailwind and REST APIs, and I'm learning C# and .NET.
 
 ## Features
 
