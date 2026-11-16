@@ -1,12 +1,12 @@
 # Portfolio
 
-My personal portfolio website, showcasing my newest projects from my Frontend Development studies at Noroff.
+My personal portfolio website, showcasing selected projects from my Frontend Development studies at Noroff.
 
 **Live site:** https://lloydbjellandportfolio.netlify.app/
 
 ## About
 
-I'm a frontend developer finishing a two-year Frontend Development degree at Noroff in December 2026, and I'm working towards becoming a fullstack developer. I build with React, TypeScript, Tailwind and REST APIs, and I'm learning C# and .NET.
+I'm a developer with a background in working with people, building solutions that are simple to use.
 
 ## Features
 
@@ -54,7 +54,7 @@ index.html
 style.css
 script.js
 assets/
-  Lloyd_Edward_Bjelland_CV.pdf
+  LloydEdwardBjellandCV.pdf
   thumbnails/
     favicon.png
     apple-touch-icon.png
@@ -79,7 +79,7 @@ assets/
 
 **Lloyd Bjelland**
 
-Frontend Development student, working towards fullstack
+Developer
 
 - [LinkedIn](https://www.linkedin.com/in/lloyd-bjelland-355659399/)
 - [GitHub](https://github.com/Bjelland14)
